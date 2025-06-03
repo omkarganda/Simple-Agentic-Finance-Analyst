@@ -15,6 +15,7 @@ This repository contains the implementation of an AI Agent specifically designed
 - Agent Team - Team of agents comprising both web and finance agent to access both the stock market data and latest news on the company to provide in depth analyst recommendations.
 
 ## Architecture Diagram
+
 ![img.png](imgs/architecture_flow.png)
 
 ## Set-up
@@ -38,4 +39,5 @@ This repository contains the implementation of an AI Agent specifically designed
 ```
 
 **Chat Playground Display**
+
 ![img.png](imgs/playground.png)
