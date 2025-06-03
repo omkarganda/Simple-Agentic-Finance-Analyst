@@ -19,4 +19,23 @@ This repository contains the implementation of an AI Agent specifically designed
 
 ## Set-up
 
-1. 
+1. To get started we need to install the necessary dependencies mentioned in the `requirements.txt` using the following command
+
+```commandline
+    pip install -r requirements.txt
+```
+
+2. To access the Phidata's chat playground, set up an account with Phidata, get the api key and export the api key to your windows environment.
+
+```commandline
+    setx PHI_API_KEY phi-***
+```
+
+3. To test the agents in the chat playground of  Phidata's, run the following command, a locally hosted URL is generated, test the agents in the chat playground.
+
+```commandline
+    python playground.app
+```
+
+**Chat Playground Display**
+![img.png](imgs/playground.png)
