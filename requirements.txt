@@ -1,0 +1,5 @@
+phidata
+python-dotenv
+fastapi[standard]
+sqlalchemy
+duckduckgo-search
