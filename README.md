@@ -4,15 +4,15 @@ This repository contains the implementation of an AI Agent specifically designed
 
 ## Features
 
-Single Agents
+**Single Agents**
 
-Web Agent - The web agent has access to the DuckDuckGo web search to fetch the sources as refernces.
+- Web Agent - The web agent has access to the DuckDuckGo web search to fetch the sources as refernces.
 
-Finance Agent - The finance agent has access to the YFinance tool (Yahoo Finance) to get the stock market results of the desired stock
+- Finance Agent - The finance agent has access to the YFinance tool (Yahoo Finance) to get the stock market results of the desired stock
 
-Agentic Team
+**Agentic Team**
 
-Agent Team - Team of agents comprising both web and finance agent to access both the stock market data and latest news on the company to provide in depth analyst recommendations.
+- Agent Team - Team of agents comprising both web and finance agent to access both the stock market data and latest news on the company to provide in depth analyst recommendations.
 
 ## Architecture Diagram
 ![img.png](imgs/architecture_flow.png)
