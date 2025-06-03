@@ -12,4 +12,4 @@ Agentic Team
 Agent Team - Team of agents comprising both web and finance agent to access both the stock market data and latest news on the company to provide in depth analyst recommendations.
 
 ## Architecture Diagram
-![img.png](imgs/Architecture Flow of Agents.png)
+![img.png](imgs/architecture_flow.png)
