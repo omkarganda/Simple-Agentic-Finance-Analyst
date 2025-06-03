@@ -16,3 +16,7 @@ This repository contains the implementation of an AI Agent specifically designed
 
 ## Architecture Diagram
 ![img.png](imgs/architecture_flow.png)
+
+## Set-up
+
+1. 
