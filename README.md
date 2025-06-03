@@ -1,29 +1,44 @@
 # Simple-Agentic-Finance-Analyst
 
-This repository contains the implementation of an AI Agent specifically designed for financial analysis, built using the Phidata framework and leveraging OpenAI's powerful Large Language Models (LLMs). The project demonstrates how to create both single-purpose and a team of AI agents that can compare stocks, fetch real-time data, and provide insightful summaries
+This repository implements an intelligent financial analysis system using the Phidata framework and OpenAI's advanced language models. The solution demonstrates how to build specialized AI agents that can analyze stocks, retrieve real-time market data, and generate comprehensive investment insights.
 
-## Features
+## Key Features
 
-**Single Agents**
+### Specialized Agents
 
-- Web Agent - The web agent has access to the DuckDuckGo web search to fetch the sources as refernces.
+**Web Research Agent**
+- Performs web searches using DuckDuckGo to gather relevant market news and references
+- Provides source-attributed information with proper citations
 
-- Finance Agent - The finance agent has access to the YFinance tool (Yahoo Finance) to get the stock market results of the desired stock
+**Financial Data Agent**
+- Accesses real-time market data through Yahoo Finance (YFinance) integration
+- Retrieves stock prices, historical trends, and fundamental company data
 
-**Agentic Team**
+### Collaborative Team
 
-- Agent Team - Team of agents comprising both web and finance agent to access both the stock market data and latest news on the company to provide in depth analyst recommendations.
+**Agent Team**
+- Combines capabilities of both Web and Finance agents
+- Generates comprehensive reports combining quantitative data with qualitative insights
+- Provides investment recommendations based on both technical and fundamental analysis
 
-## Architecture Diagram
+## System Architecture
 
 ![img.png](imgs/architecture_flow.png)
 
-## Set-up
+## Getting Started
 
-1. To get started we need to install the necessary dependencies mentioned in the `requirements.txt` using the following command
+### Prerequisites
+
+- Python 3.8+
+- Phidata API key
+- OpenAI API key
+
+### Installation
+
+1. Install required dependencies:
 
 ```commandline
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 2. To access the Phidata's chat playground, set up an account with Phidata, get the api key and export the api key to your windows environment.
@@ -35,7 +50,7 @@ This repository contains the implementation of an AI Agent specifically designed
 3. To test the agents in the chat playground of  Phidata's, run the following command, a locally hosted URL is generated, test the agents in the chat playground.
 
 ```commandline
-    python playground.app
+    python playground.py
 ```
 
 **Chat Playground Display**
