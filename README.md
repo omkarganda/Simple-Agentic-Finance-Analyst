@@ -1,6 +1,6 @@
 # Simple-Agentic-Finance-Analyst
 
-This repository implements an intelligent financial analysis system using the Phidata framework and OpenAI's advanced language models. The solution demonstrates how to build specialized AI agents that can analyze stocks, retrieve real-time market data, and generate comprehensive investment insights.
+This repository implements an intelligent financial analysis system using the Phidata framework and OpenAI's advanced language models with a custom FastAPI web interface. The solution demonstrates how to build specialized AI agents that can analyze stocks, retrieve real-time market data, and generate comprehensive investment insights through a modern, responsive web application.
 
 ## Key Features
 
@@ -41,18 +41,28 @@ This repository implements an intelligent financial analysis system using the Ph
 pip install -r requirements.txt
 ```
 
-2. To access the Phidata's chat playground, set up an account with Phidata, get the api key and export the api key to your windows environment.
+2. Set up your environment variables by creating a `.env` file:
 
-```commandline
-    setx PHI_API_KEY phi-***
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+PHI_API_KEY=your_phidata_api_key_here  # Optional, for Phidata features
 ```
 
-3. To test the agents in the chat playground of  Phidata's, run the following command, a locally hosted URL is generated, test the agents in the chat playground.
+3. Launch the custom web interface:
 
 ```commandline
     python playground.py
 ```
 
-**Chat Playground Display**
+The application will start on `http://localhost:8000` with a modern web interface featuring:
+- **Agent Selection**: Choose between Finance Agent, Web Agent, or Agent Team
+- **Interactive UI**: Clean, responsive design with real-time analysis
+- **API Endpoints**: RESTful API for programmatic access
 
-![img.png](imgs/playground.png)
+**Custom Web Interface Features**
+
+- 🎨 Modern gradient design with responsive layout
+- 📊 Agent-specific information cards  
+- 🔄 Real-time query processing with loading indicators
+- 📱 Mobile-friendly responsive design
+- 🛡️ Error handling and validation
